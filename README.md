@@ -1,5 +1,7 @@
 # Shiny_AutoMarket
 Auto market segments identification
+
+
 The following R code uses the K-MEANS algorithm to find the best market segments for an auto industry business case using shiny
 
 Context
