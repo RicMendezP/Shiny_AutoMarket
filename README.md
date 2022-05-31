@@ -24,7 +24,7 @@ CODE NOTES:
   output$fviz_nbclust <- renderPlot({
     fviz_nbclust(Final_MarketData,kmeans, method = "wss") + labs(subtitle = "Elbow Method - wss") + geom_vline(xintercept = 6, linetype = 2)
     
- 
+ CHECK THE AUTO SEGMENT CASE RUNNING HERE: https://inisghtdiscovery.shinyapps.io/Auto_segments/
     
     
 
